@@ -1,0 +1,23 @@
+{
+  "contact": {
+    "firstName": "Shane",
+    "lastName": "Marshall",
+    "email": "shanemarshall@gmail.com",
+    "favoriteColor": "Purple",
+    "birthday": "09/08/01"
+  },
+  "contact2": {
+    "firstName": "Kelsey",
+    "lastName": "Berta",
+    "email": "kelseyberta@gmail.com",
+    "favoriteColor": "Green",
+    "birthday": "03/05/03"
+  },
+  "contact3": {
+    "firstName": "Bruce",
+    "lastName": "Berta",
+    "email": "brucedog@dog.com",
+    "favoriteColor": "Blue",
+    "birthday": "09/08/21"
+  }
+}
