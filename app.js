@@ -19,7 +19,7 @@ app.use((req, res, next) => {
   
 
 app.use('/', require('./routes'));
-
+app.use(contactsRoutes)
 
 mongodb.initDb((err, mongodb) => {
   if (err) {
