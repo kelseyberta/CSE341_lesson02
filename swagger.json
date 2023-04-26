@@ -18,13 +18,6 @@
         "responses": {}
       }
     },
-    "/contacts/api-docs": {
-      "get": {
-        "description": "",
-        "parameters": [],
-        "responses": {}
-      }
-    },
     "/contacts/": {
       "get": {
         "description": "",
