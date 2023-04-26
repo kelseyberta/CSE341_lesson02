@@ -9,29 +9,29 @@ GET http://localhost:8080/Contacts/6441e0acda3bf8658863e6bf
 GET http://localhost:8080/Contacts/6441e0b6da3bf8658863e6c0
 ### Post request localhost
 POST http://localhost:8080/Contacts HTTP/1.1
-
 Content-Type: application/json
+
 {
-    "firstName": "Yvette",
-    "lastName": "Berta",
-    "email": "yvetteberta@gmail.com",
-    "favoriteColor": "Red",
-    "birthday": "03/05/67"
+    "firstName": "Kathy",
+    "lastName": "Marshall",
+    "email": "kathymarshall@gmail.com",
+    "favoriteColor": "Pink",
+    "birthday": "07/24/63"
 }
 ### Put request localhost
 PUT http://localhost:8080/Contacts/6447ca66aba2f7c9cd5a896f HTTP/1.1 
-
 Content-Type: application/json
+
 {
     "firstName": "Bruce",
     "lastName": "Berta",
-    "email": "dog@dog.com",
-    "favoriteColor": "Blue",
+    "email": "Brucedog@dogemails.com",
+    "favoriteColor": "Green",
     "birthday": "09/08/21"
 }
 
 ### Delete request localhost
-DELETE http://localhost:8080/Contacts/6447ed72823eb4e16898781b HTTP/1.1
+DELETE http://localhost:8080/Contacts/6447ef03047e2ced6ea48386 HTTP/1.1
 ### Get request render
 GET https://cse341-lesson02-g6sf.onrender.com/ HTTP/1.1
 ### Get request render ID
