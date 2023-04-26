@@ -32,6 +32,9 @@ Content-Type: application/json
 
 ### Delete request localhost
 DELETE http://localhost:8080/Contacts/644959e353bc007b05362555 HTTP/1.1
+
+
+
 ### Get request render
 GET https://cse341-lesson02-g6sf.onrender.com/ HTTP/1.1
 ### Get request render ID
@@ -39,22 +42,22 @@ GET https://cse341-lesson02-g6sf.onrender.com/Contacts/6441e0acda3bf8658863e6bf
 ### Get request render ID
 GET https://cse341-lesson02-g6sf.onrender.com/Contacts/6441e0b6da3bf8658863e6c0
 ### Get request render ID
-GET https://cse341-lesson02-g6sf.onrender.com/Contacts/6441dd60da3bf8658863e6b7
+GET https://cse341-lesson02-g6sf.onrender.com/Contacts/64496021c8b976bec4fc385c
 
 ### Post request Render
 POST https://cse341-lesson02-g6sf.onrender.com/Contacts 
 Content-Type: application/json
 
 {
-    "firstName": "Yvette",
+    "firstName": "Bruce",
     "lastName": "Berta",
-    "email": "yvetteberta@gmail.com",
-    "favoriteColor": "Red",
-    "birthday": "03/05/67"
-}
+    "email": "brucedog@dog.com",
+    "favoriteColor": "Blue",
+    "birthday": "09/08/21"
+  }
 
 ### Put request Render
-PUT https://cse341-lesson02-g6sf.onrnder.com/Contacts/6447ca66aba2f7c9cd5a896f  
+PUT https://cse341-lesson02-g6sf.onrender.com/Contacts/64496021c8b976bec4fc385c
 Content-Type: application/json
 
 {
@@ -66,4 +69,4 @@ Content-Type: application/json
 }
 
 ### Delte request Render
-DELETE https://cse341-lesson02-g6sf.onrender.com/Contacts/6447ef03047e2ced6ea48386
+DELETE https://cse341-lesson02-g6sf.onrender.com/Contacts/64495a3d04629b02bc5d6d3f
